@@ -21,11 +21,11 @@ const Navbar = () => {
             </div>
         </div>
         <div className="bg-slate-50 h-20 w-auto flex justify-center pb-4 border-b-2 border-gray-200">
-            <div className="search-bar-wrapper bg-white self-center justify-around border-2 border-black flex w-screen mx-60 h-14 rounded-full">
+            <div className="search-bar-wrapper bg-white self-center justify-around border-black flex w-screen mx-60 h-14 rounded-full shadow-lg mt-4 divide-x-2">
                 <div className='text-sm self-center pl-5 pr-28'>where<br></br>search destinations</div>
-                <div className='text-sm self-center'>check in <br></br>Add dates</div>
-                <div className='text-sm self-center'>check out <br></br>Add dates</div>
-                <div className='text-sm self-center flex'>
+                <div className='text-sm self-center pl-2'>Check in <br></br>Add dates</div>
+                <div className='text-sm self-center pl-2'>Check out <br></br>Add dates</div>
+                <div className='text-sm self-center flex pl-2'>
                     <div className='pr-28'>
                     Who <br></br>Add Guests
                     </div>
@@ -33,6 +33,7 @@ const Navbar = () => {
                 </div>
             </div>
         </div>
+        
         </>
      );
 }
