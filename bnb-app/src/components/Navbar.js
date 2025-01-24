@@ -1,5 +1,9 @@
 import React from 'react';
 import logo from '../assets/images/airbnb.svg';
+import { CiGlobe} from "react-icons/ci";
+import { RxHamburgerMenu } from "react-icons/rx";
+import { FaUserCircle } from "react-icons/fa";
+import { IoSearchCircleSharp } from "react-icons/io5";
 
 const Navbar = () => {
     return ( 
@@ -14,9 +18,9 @@ const Navbar = () => {
             </div>
             <div className="last flex space-x-3 self-center">
                 <div className='font-semibold'>Airbnb your home</div>
-                <div>LnR</div>
-                <div><button>ham</button>
-                <button className='pl-2'>pfp</button>
+                <div><button><CiGlobe className='h-6 w-6'/></button></div>
+                <div><button><RxHamburgerMenu className='h-6 w-6'/></button>
+                <button className='pl-2'><FaUserCircle className='h-6 w-6'/></button>
                 </div>
             </div>
         </div>
@@ -25,15 +29,16 @@ const Navbar = () => {
                 <div className='text-sm self-center pl-5 pr-28'>where<br></br>search destinations</div>
                 <div className='text-sm self-center pl-2'>Check in <br></br>Add dates</div>
                 <div className='text-sm self-center pl-2'>Check out <br></br>Add dates</div>
-                <div className='text-sm self-center flex pl-2'>
-                    <div className='pr-28'>
-                    Who <br></br>Add Guests
-                    </div>
-                    <div className="self-center">search</div>
+                <div className='text-sm self-center flex pl-2 h-10'>
+                    <div className='self-center mr-28'>Who<br></br>Add Guests</div>
+                    <div className="self-center"><IoSearchCircleSharp style={{color:"#ff3859"}} className='h-14 w-14 '/></div>
                 </div>
             </div>
         </div>
-        
+        <div className="bg-slate-100 h-20 w-full flex justify-between px-8">
+            
+
+        </div>
         </>
      );
 }
