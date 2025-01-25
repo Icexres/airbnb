@@ -1,44 +1,44 @@
 {
-    "item":[
-        {
-            "title": "Bread & Breakfast",
-            "icon": "SlCup",
-            "id": 1
-        },
-        {
-            "title": "Rooms",
-            "icon": "LiaBedSolid",
-            "id": 2
-        },
-        {
-            "title": "Top Cities",
-            "icon": "GiPisaTower",
-            "id": 3
-        },
-        {
-            "title": "Tropical",
-            "icon": "LuTreePalm",
-            "id": 4
-        },
-        {
-            "title":"Trending",
-            "icon":"IoFlameOutline",
-            "id": 5
-        },
-        {
-            "title":"Boats",
-            "icon":"PiSailboat",
-            "id": 6
-        },
-        {
-            "title":"Farms",
-            "icon":"PiFarm",
-            "id": 7
-        },
-        {
-            "title":"Castles",
-            "icon":"PiCastleTurret",
-            "id": 8
-        }
-    ]
+  "item": [
+    {
+      "title": "Bread & Breakfast",
+      "icon": "SlCup",
+      "id": 1
+    },
+    {
+      "title": "Rooms",
+      "icon": "LiaBedSolid",
+      "id": 2
+    },
+    {
+      "title": "Top Cities",
+      "icon": "GiPisaTower",
+      "id": 3
+    },
+    {
+      "title": "Tropical",
+      "icon": "LuTreePalm",
+      "id": 4
+    },
+    {
+      "title": "Trending",
+      "icon": "IoFlameOutline",
+      "id": 5
+    },
+    {
+      "title": "Boats",
+      "icon": "PiSailboat",
+      "id": 6
+    },
+    {
+      "title": "Farms",
+      "icon": "PiFarm",
+      "id": 7
+    },
+    {
+      "title": "Castles",
+      "icon": "PiCastleTurret",
+      "id": 8
+    }
+  ]
 }
