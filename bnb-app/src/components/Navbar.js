@@ -26,11 +26,11 @@ const Navbar = () => {
         </div>
         <div className="bg-slate-50 h-24 w-auto flex justify-center pb-4 border-b-2 border-gray-200">
             <div className="search-bar-wrapper bg-white self-center justify-around border-black flex w-screen mx-60 h-16 rounded-full shadow-md mt-4 divide-x-2">
-                <div className='text-xs self-center pl-5 pr-28 '><span className='font-Cereal'>where<br></br>search destinations</span></div>
-                <div className='text-xs self-center pl-2'><span className='font-Cereal'>Check in <br></br>Add dates</span></div>
-                <div className='text-xs self-center pl-2'><span className='font-Cereal'>Check out <br></br>Add dates</span></div>
+                <div className='text-xs self-center pl-5 pr-28 '><span className='font-Cereal'>Where<br></br></span><span className='font-Cereal font-light text-gray-400'>Search destinations</span></div>
+                <div className='text-xs self-center pl-2'><span className='font-Cereal'>Check in <br></br></span><span className='font-Cereal font-light text-gray-400'>Add dates</span></div>
+                <div className='text-xs self-center pl-2'><span className='font-Cereal'>Check out <br></br></span><span className='font-Cereal font-light text-gray-400'>Add dates</span></div>
                 <div className='text-xs self-center flex pl-2 h-10'>
-                    <div className='self-center mr-28'><span className='font-Cereal'>Who<br></br>Add Guests</span></div>
+                    <div className='self-center mr-28'><span className='font-Cereal'>Who<br></br></span><span className='font-Cereal font-light text-gray-400'>Add Guests</span></div>
                     <div className="self-center"><IoSearchCircleSharp style={{color:"#ff3859"}} className='h-14 w-14 '/></div>
                 </div>
             </div>
