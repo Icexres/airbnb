@@ -99,7 +99,6 @@ const Navbar = () => {
       <div className="bg-slate-100 h-20 w-full px-8">
         {error && <div className="error">{error}</div>}
         {isPending && <div className="loading">Loading...</div>}
-        
         {item && <Lists items={item} />}
       </div>
     </>
