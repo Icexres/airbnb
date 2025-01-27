@@ -77,7 +77,7 @@ const Navbar = () => {
             </span>
           </div>
           <div className="text-xs self-center flex pl-2 h-9">
-            <div className="self-center mr-28">
+            <div className="self-center pr-28">
               <span className="font-Cereal">
                 Who<br></br>
               </span>
@@ -85,11 +85,11 @@ const Navbar = () => {
                 Add Guests
               </span>
             </div>
-            <div className="self-center">
+            <div className="self-center justify-items-end relative left-4">
               <button>
                 <IoSearchCircleSharp
                   style={{ color: "#ff3859" }}
-                  className="h-14 w-14 "
+                  className="h-16 w-16"
                 />
               </button>
             </div>
