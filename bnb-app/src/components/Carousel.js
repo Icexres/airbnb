@@ -27,8 +27,12 @@ export default function Carousel({children:slides}) {
                 </div>            
             </div> 
         </div>
-        <div className="textpart">
-            Kathmandu,Nepal
+        <div className="textpart mt-4">
+            <div className="top line flex justify-between">
+                <div className="location">Kathmandu,Nepal</div>
+                <div className="ratings"> 4.88</div>
+            </div>
+            <p>Hosted by Jenifer <br/> Feb 1-6 <br/>$23 night</p>
         </div>
         </div> {/*ending div for card container*/}
         </>
