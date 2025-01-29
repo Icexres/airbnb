@@ -12,7 +12,7 @@ const slides=[
 ]
 const Home = () => {
     return ( 
-       <div className="max-w-sm w-72">
+       <div className="max-w-xs">
             <Carousel>
                 {slides.map((s)=>(
                     <img src={s} alt='cardimages'/>
