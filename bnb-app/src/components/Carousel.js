@@ -1,4 +1,8 @@
 import { useState } from "react"
+import { FaAngleRight } from "react-icons/fa6";
+import { FaAngleLeft } from "react-icons/fa6";
+import { FaRegHeart } from "react-icons/fa";
+import { FaHeart } from "react-icons/fa";
 //style={{transform:`translateX(-${curr *100}%)`}}>{slides} dont know whats happening here and everything about the slide changing function....
 export default function Carousel({children:slides}) {
     const [curr,setCurr]=useState(0)
@@ -14,10 +18,11 @@ export default function Carousel({children:slides}) {
         <>
         <div className="ml-8 mt-4 h-72">
         <div className="overflow-hidden relative rounded-3xl w-72">
-        <div className="flex transition-transform ease-out duration-500" style={{transform:`translateX(-${curr *100}%)`}}>{slidesArray}</div> 
+        <div className="flex transition-transform ease-out duration-500" style={{transform:`translateX(-${curr *100}%)`}}>{slidesArray}</div>
+        <div className="absolute inset-3 flex justify-end"><FaRegHeart className=" h-6 w-6 mr-2" style={{ color: "#ffffff" }}/></div> 
         <div className="absolute inset-0 flex items-center justify-between p-2">
-            <button onClick={prev} className="pb-2 h-7 w-7 rounded-full bg-white/80 text-gray-800 hover:bg-white"><span>&lt;</span></button>
-            <button onClick={next} className="pb-2 h-7 w-7 rounded-full bg-white/80 text-gray-800 hover:bg-white"><span>&gt;</span></button>
+            <button onClick={prev} className="pb-2 h-6 w-6 rounded-full bg-white/80 text-gray-800 hover:bg-white"><FaAngleLeft className="h-6 w-6"/></button>
+            <button onClick={next} className="pb-2 h-6 w-6 rounded-full bg-white/80 text-gray-800 hover:bg-white"><FaAngleRight className="h-6 w-6"/></button>
         </div> 
             <div className="absolute bottom-4 left-0 right-0">
                 <div className="flex items-center justify-center gap-2">

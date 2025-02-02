@@ -15,8 +15,8 @@ const Lists = ({ items, id }) => {
         <div className="rounded-full border shadow-lg w-10 h-10 flex items-center justify-center pb-1 text-lg font-bold">></div>
       </button>
 
-    <div className="flex space-x-6 px-16 z-20 pt-3">
-      <div className="text-sm font-Cereal cursor-pointer">filter</div>
+    <div className="flex space-x-5 px-16 z-20 pt-2">
+      <div className="text-sm font-Cereal cursor-pointer flex">filter</div>
       <div className="text-sm font-Cereal cursor-pointer">display total before taxes</div>
     </div>
     </div>

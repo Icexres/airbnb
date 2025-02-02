@@ -8,29 +8,29 @@ const Footer = () => {
         <div className="bg-neutral-100 h-auto mt-32">
         <h1 className="px-8 text-2xl pt-10 font-Cereal font-bold">Inspiration for future getaways</h1>
             <div className="mininav flex list-none justify-around px-8 mt-8 justify-items-start text-gray-700">
-                <div className="font-bold h-10 border-b-2 border-black">Popular</div>
-                <div>Outdoors</div>
-                <div>Arts</div>
-                <div>Mountain</div>
-                <div>Beach</div>
-                <div>Unique Stays</div>
-                <div>Categories</div>
-                <div>Things to do</div>
+                <div className="cursor-pointer hover:font-bold h-10 hover:border-b-2 hover:border-black">Popular</div>
+                <div className="cursor-pointer hover:font-bold h-10 hover:border-b-2 hover:border-black">Outdoors</div>
+                <div className="cursor-pointer hover:font-bold h-10 hover:border-b-2 hover:border-black">Arts</div>
+                <div className="cursor-pointer hover:font-bold h-10 hover:border-b-2 hover:border-black">Mountain</div>
+                <div className="cursor-pointer hover:font-bold h-10 hover:border-b-2 hover:border-black">Beach</div>
+                <div className="cursor-pointer hover:font-bold h-10 hover:border-b-2 hover:border-black">Unique Stays</div>
+                <div className="cursor-pointer hover:font-bold h-10 hover:border-b-2 hover:border-black">Categories</div>
+                <div className="cursor-pointer hover:font-bold h-10 hover:border-b-2 hover:border-black">Things to do</div>
             </div>
             <hr class="h-px mx-16 bg-gray-300 border-0"/>
             <div className="textcontainer px-16 mt-6 font-Cereal text-sm grid grid-cols-6 gap-4 gap-y-5">
-                <div>Canmore<br/>Pet friendly rentals</div>
-                <div>Marbella<br/>House rentals</div>
-                <div>Jasper<br/>Cabin rentals</div>
-                <div>Dubai<br/>Family-friendly rentals</div>
-                <div>Sonoma<br/>House rentals</div>
-                <div>Orlando<br/>Cottage rentals</div>
-                <div>Capri<br/>House rentals</div>
-                <div>Waco<br/>Cabin rentals</div>
-                <div>Sorrento<br/>House rentals</div>
-                <div>Seaview<br/>Vavation rentals</div>
-                <div>Seaview<br/>Vavation rentals</div>
-                <div>Seaview<br/>Vavation rentals</div>
+                <div ><span className="font-semibold">Canmore</span><br/><span className="text-gray-800">Pet friendly rentals</span></div>
+                <div><span className="font-semibold">Marbella</span><br/><span className="text-gray-800">House rentals</span></div>
+                <div><span className="font-semibold">Jasper</span><br/><span className="text-gray-800">Cabin rentals</span></div>
+                <div><span className="font-semibold">Dubai</span><br/><span className="text-gray-800">Family-friendly rentals</span></div>
+                <div><span className="font-semibold">Sonoma</span><br/><span className="text-gray-800">House rentals</span></div>
+                <div><span className="font-semibold">Orlando</span><br/><span className="text-gray-800">Cottage rentals</span></div>
+                <div><span className="font-semibold">Capri</span><br/><span className="text-gray-800">House rentals</span></div>
+                <div><span className="font-semibold">Waco</span><br/><span className="text-gray-800">Cabin rentals</span></div>
+                <div><span className="font-semibold">Sorrento</span><br/><span className="text-gray-800">House rentals</span></div>
+                <div><span className="font-semibold">Seaview</span><br/><span className="text-gray-800">Vavation rentals</span></div>
+                <div><span className="font-semibold">Seaview</span><br/><span className="text-gray-800">Vavation rentals</span></div>
+                <div><span className="font-semibold">Seaview</span><br/><span className="text-gray-800">Vavation rentals</span></div>
             </div>
             <hr class="h-px my-10 mx-16 bg-gray-300 border-0"/>
             <div className="ending grid grid-cols-3 gap-14 h-auto mx-16 font-Cereal">

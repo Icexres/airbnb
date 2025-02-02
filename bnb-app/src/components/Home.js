@@ -36,7 +36,7 @@ const Home = () => {
             </Carousel>
        </div>
        <div className="flex items-center justify-center flex-col pt-36 space-y-4">
-        <div>Continue exploring bed and breakfast</div>
+        <div className='text-2xl font-Cereal font-semibold'>Continue exploring bed and breakfast</div>
         <div className='bg-black text-white flex justify-center items-center rounded-xl h-10 w-32 hover:cursor-pointer'>Show more</div>
         </div>
        </>
