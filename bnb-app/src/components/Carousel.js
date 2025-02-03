@@ -16,7 +16,7 @@ export default function Carousel({children:slides}) {
 
     const slidesArray = Array.isArray(slides) ? slides : [slides];
     const toggleLike = () => {
-        setIsLiked(!isLiked); // Toggle the heart icon state
+        setIsLiked(!isLiked);
     };
     return  (
         <>
