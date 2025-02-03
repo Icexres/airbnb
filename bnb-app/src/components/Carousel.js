@@ -6,7 +6,8 @@ import { FaHeart } from "react-icons/fa";
 //style={{transform:`translateX(-${curr *100}%)`}}>{slides} dont know whats happening here and everything about the slide changing function....
 export default function Carousel({children:slides}) {
     const [curr,setCurr]=useState(0)
-    
+    const [isLiked, setIsLiked] = useState(false);
+
     const prev = () => 
         setCurr(curr => (curr === 0 ? slides.length - 1 : curr - 1));
 
@@ -14,12 +15,18 @@ export default function Carousel({children:slides}) {
         setCurr(curr => (curr === slides.length - 1 ? 0 : curr + 1));
 
     const slidesArray = Array.isArray(slides) ? slides : [slides];
+    const toggleLike = () => {
+        setIsLiked(!isLiked); // Toggle the heart icon state
+    };
     return  (
         <>
         <div className="ml-8 mt-4 h-72">
         <div className="overflow-hidden relative rounded-3xl w-72">
         <div className="flex transition-transform ease-out duration-500" style={{transform:`translateX(-${curr *100}%)`}}>{slidesArray}</div>
-        <div className="absolute inset-3 flex justify-end"><FaRegHeart className=" h-6 w-6 mr-2" style={{ color: "#ffffff" }}/></div> 
+        <div className="absolute z-10  inset-3 flex justify-end"onClick={toggleLike}>
+            {isLiked ? (<FaHeart className="h-6 w-6 mr-2" style={{ color: "#ffffff" }} />) 
+            : (<FaRegHeart className="h-6 w-6 mr-2" style={{ color: "#ffffff" }} />)}
+        </div>
         <div className="absolute inset-0 flex items-center justify-between p-2">
             <button onClick={prev} className="pb-2 h-6 w-6 rounded-full bg-white/80 text-gray-800 hover:bg-white"><FaAngleLeft className="h-6 w-6"/></button>
             <button onClick={next} className="pb-2 h-6 w-6 rounded-full bg-white/80 text-gray-800 hover:bg-white"><FaAngleRight className="h-6 w-6"/></button>
